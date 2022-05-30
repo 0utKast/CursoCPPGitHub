@@ -238,7 +238,7 @@ int main()
 		return 0;
 	}
 
-
+#endif
 
 
 #include <iostream>
@@ -287,73 +287,6 @@ int main()
 
 		return 0;
 	}
-#endif
-
-
-#include <iostream>
-
-	class MinMax
-	{
-	private:
-		int m_min{}; // Valor mínimo visto hasta ahora
-		int m_max{}; // Valor máximo visto hasta ahora
-
-	public:
-		MinMax(int min, int max)
-			: m_min{ min }, m_max{ max }
-		{ }
-
-		int getMin() const { return m_min; }
-		int getMax() const { return m_max; }
-
-		friend MinMax operator+(const MinMax& m1, const MinMax& m2);
-		friend MinMax operator+(const MinMax& m, int valor);
-		friend MinMax operator+(int valor, const MinMax& m);
-	};
-
-	MinMax operator+(const MinMax& m1, const MinMax& m2)
-	{
-		// Obrener el valor mínimo visto en m1 y m2
-		int min{ m1.m_min < m2.m_min ? m1.m_min : m2.m_min };
-
-		// Obtener el valor máximo visto en m1 y m2
-		int max{ m1.m_max > m2.m_max ? m1.m_max : m2.m_max };
-
-		return { min, max };
-	}
-
-	MinMax operator+(const MinMax& m, int valor)
-	{
-		// Obtener el valor mínimo visto en m y valor
-		int min{ m.m_min < valor ? m.m_min : valor };
-
-		// Obtener el valor máximo visto en m y valor
-		int max{ m.m_max > valor ? m.m_max : valor };
-
-		return { min, max };
-	}
-
-	MinMax operator+(int valor, const MinMax& m)
-	{
-		// llama a operator+(MinMax, int)
-		return { m + valor };
-	}
-
-	int main()
-	{
-		MinMax m1{ 10, 15 };
-		MinMax m2{ 8, 11 };
-		MinMax m3{ 3, 12 };
-
-		MinMax mFinal{ m1 + m2 + 5 + 8 + m3 + 16 };
-
-		std::cout << "Resultado: (" << mFinal.getMin() << ", " <<
-			mFinal.getMax() << ")\n";
-
-		return 0;
-	}
 
 
 
-#if 0
-#endif
