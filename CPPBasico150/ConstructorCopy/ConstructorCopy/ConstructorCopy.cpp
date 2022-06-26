@@ -25,6 +25,7 @@ std::ostream& operator<<(std::ostream& out, const Fraccion& f1)
     return out;
 }
 
+
 int main()
 {
 	//podemos hacer una inicialización directa
@@ -49,15 +50,25 @@ int main()
 }
 
 
+int main()
+{
+    //inicialización directa
+    int x(4); // de un tipo int
+    Fraccion tresCuartos(3, 4); // de un tipo Fraccion
 
+    //inicialización uniforme
+    int y{ 6 }; // de un tipo int
+    Fraccion seisQuintos{ 6, 5 }; // de un tipo Fraccion
+                                  
 
+    //inicialización por copia
+    int z = 9; // de un tipo int    
+    Fraccion nueve = 9; // de un tipo Fraccion
+    Fraccion nueve = Fraccion(9); // de un tipo Fraccion
+}
+#endif
 
-
-
-
-
-
-
+#if 0
 
 #include <cassert>
 #include <iostream>
@@ -88,7 +99,8 @@ std::ostream& operator<<(std::ostream& out, const Fraccion& f1)
 int main()
 {
     Fraccion tresCuartos{ 3, 4 }; // Inicializa entre llaves una Fraccion, llama al constructor Fraccion(int, int)
-    Fraccion copiaFrac{ tresCuartos }; // Inicializa entre llaves una Fraccion, ¿Pero con qué constructor?
+    //Fraccion copiaFrac{ tresCuartos }; // Inicializa entre llaves una Fraccion, ¿Pero con qué constructor?
+    Fraccion copiaFrac{ tresCuartos }; // Inicializa entre llaves una Fraccion, llama al constructor Fraccion(int, int)
     std::cout << copiaFrac << '\n';
 }
 
@@ -134,11 +146,13 @@ int main()
     Fraccion tresCuartos{ 3, 4 }; // Inicialización uniforme, llama al constructor Fraccion(int, int)
     Fraccion copiaFrac{ tresCuartos }; // Inicialización uniforme, llama al constructor por copia
     std::cout << copiaFrac << '\n';
+	
+    Fraccion sieteQuintos{ 7,5 };
 }
 
 #endif
 
-
+#if 0
 #include <cassert>
 #include <iostream>
 
@@ -181,7 +195,4 @@ int main()
     Fraccion copiaFrac{ tresCuartos }; // // Inicialización uniforme, llama al constructor por copia
     std::cout << copiaFrac << '\n';
 }
-
-
-#if 0
 #endif
