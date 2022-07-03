@@ -1,0 +1,3 @@
+﻿  CopiaProfunda.cpp
+G:\CursoCPPGitHub\CPPBasico154\CopiaProfunda\CopiaProfunda\CopiaProfunda.cpp(166,1): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+  CopiaProfunda.vcxproj -> G:\CursoCPPGitHub\CPPBasico154\CopiaProfunda\x64\Debug\CopiaProfunda.exe
