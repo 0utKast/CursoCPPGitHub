@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composicion", "Composicion\Composicion.vcxproj", "{0C4CEB7B-914E-4786-9C6D-615759E6D843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Debug|x64.ActiveCfg = Debug|x64
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Debug|x64.Build.0 = Debug|x64
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Debug|x86.Build.0 = Debug|Win32
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Release|x64.ActiveCfg = Release|x64
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Release|x64.Build.0 = Release|x64
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Release|x86.ActiveCfg = Release|Win32
+		{0C4CEB7B-914E-4786-9C6D-615759E6D843}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B23A90E-6C24-4020-B56A-41458670D1B9}
+	EndGlobalSection
+EndGlobal
