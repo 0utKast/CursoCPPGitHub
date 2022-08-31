@@ -1,0 +1,3 @@
+﻿  CastingDinamico.cpp
+G:\CursoCPPGitHub\CPPBasico181\CastingDinamico\CastingDinamico\CastingDinamico.cpp(213,15): error C2683: 'dynamic_cast': 'Padre' no es un tipo polimórfico
+G:\CursoCPPGitHub\CPPBasico181\CastingDinamico\CastingDinamico\CastingDinamico.cpp(175): message : vea la declaración de 'Padre'
