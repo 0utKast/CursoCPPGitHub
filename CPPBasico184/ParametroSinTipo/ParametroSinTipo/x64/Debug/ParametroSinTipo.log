@@ -1,0 +1,6 @@
+﻿  ParametroSinTipo.cpp
+G:\CursoCPPGitHub\CPPBasico184\ParametroSinTipo\ParametroSinTipo\ParametroSinTipo.cpp(96,23): error C2440: 'specialization': no se puede realizar la conversión de 'const double' a 'int'
+G:\CursoCPPGitHub\CPPBasico184\ParametroSinTipo\ParametroSinTipo\ParametroSinTipo.cpp(96,23): message : no se permite la conversión de "const double" a "int" en este contexto
+G:\CursoCPPGitHub\CPPBasico184\ParametroSinTipo\ParametroSinTipo\ParametroSinTipo.cpp(63,7): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+G:\CursoCPPGitHub\CPPBasico184\ParametroSinTipo\ParametroSinTipo\ParametroSinTipo.cpp(63,7): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+G:\CursoCPPGitHub\CPPBasico184\ParametroSinTipo\ParametroSinTipo\ParametroSinTipo.cpp(97): message : Vea la referencia a la creación de una instancia de clase plantilla "ArrayEstatico<double,0>" que se está compilando
