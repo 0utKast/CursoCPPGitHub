@@ -32,7 +32,7 @@ int main()
 
     // Imprime algunos valores
     iValor.imprimir();
-    dValor.imprimir();    
+    dValor.imprimir();
 }
 #endif
 
@@ -62,7 +62,7 @@ template <>
 Almacen<char*>::Almacen(char* valor)
     : m_valor{ valor }
 {
-   // std::cout << "es un char"<< '\n';
+    // std::cout << "es un char"<< '\n';
 }
 
 int main()
@@ -101,7 +101,7 @@ public:
     }
 
     ~Almacen() {}; // necesitamos un destructor definido explícitamente para poder especializarlo
-   
+
     void imprimir()
     {
         std::cout << m_valor << '\n';
