@@ -1,0 +1,4 @@
+﻿  ClasesException.cpp
+G:\CursoCPPGitHub\CPPBasico192\ClasesException\ClasesException\ClasesException.cpp(193,25): warning C4101: 'derivada': variable local sin referencia
+G:\CursoCPPGitHub\CPPBasico192\ClasesException\ClasesException\ClasesException.cpp(197,22): warning C4101: 'padre': variable local sin referencia
+  ClasesException.vcxproj -> G:\CursoCPPGitHub\CPPBasico192\ClasesException\x64\Debug\ClasesException.exe
