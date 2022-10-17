@@ -1,7 +1,9 @@
 #if 0
+
 int x{ 5 };
 int& lref{ x }; // referencia l-value inicializada con el valor l-value x
 int&& rref{ 5 }; // referencia r-value inicializada con el r-value 5
+
 
 
 
@@ -36,29 +38,35 @@ int main()
 
 	return 0;
 } // rref (y la Fracción temporal) salen de alcance aquí
+#endif
 
 
-
+#if 0
 #include <iostream>
 
 int main()
 {
-	int&& rref{ 5 }; // como estamos inicializando una referencia r-value con un literal, un objeto temporal con valor 5 se crea aquí
+	int&& rref{ 5 }; // un objeto temporal con valor 5 se crea aquí
 	rref = 10;
 	std::cout << rref << '\n';
 
 	return 0;
 }
-#endif
+
+
+
+
+
+
 
 #include <iostream>
 
-void fun(const int& lref) // argumentos l-value seleccionarán esta función
+void compara(const int& lref) // argumentos l-value seleccionarán esta comparación
 {
 	std::cout << "referencia l-value a const\n";
 }
 
-void fun(int&& rref) // argumentos r-value seleccionarán esta función
+void compara(int&& rref) // argumentos r-value seleccionarán esta comparación
 {
 	std::cout << "referencia r-value\n";
 }
@@ -66,8 +74,54 @@ void fun(int&& rref) // argumentos r-value seleccionarán esta función
 int main()
 {
 	int x{ 5 };
-	fun(x); // argumento l-value llama a la versión l-value de la función
-	fun(5); // argumento r-value llama a la versión r-value de la función
+	compara(x); // argumento l-value llama a la versión l-value de la comparación
+	compara(5); // argumento r-value llama a la versión r-value de la comparación
 
 	return 0;
 }
+#endif
+
+
+#include <iostream>
+
+void compara(const int& lref) // argumentos l-value seleccionarán esta sobrecarga
+{
+	std::cout << "referencia l-value a const\n";
+}
+
+void compara(int&& rref) // argumentos r-value seleccionarán esta sobrecarga
+{
+	std::cout << "referencia r-value\n";
+}
+
+int main()
+{
+	int &&rref{ 5 };
+	compara(rref); 
+	return 0;
+}
+#if 0
+#endif
+
+#if 0
+int main()
+{
+	int x{};
+
+	// referencias l-value
+	int& ref1{ x }; // 1
+	int& ref2{ 5 }; // 2
+
+	const int& ref3{ x }; // 3
+	const int& ref4{ 5 }; //4
+
+	// referencias r-value
+	int&& ref5{ x }; // 5
+	int&& ref6{ 5 }; // 6
+
+	const int&& ref7{ x }; // 7
+	const int&& ref8{ 5 }; // 8
+
+	return 0;
+}
+#endif
