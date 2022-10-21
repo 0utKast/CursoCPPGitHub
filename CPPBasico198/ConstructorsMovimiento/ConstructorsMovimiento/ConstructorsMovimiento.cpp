@@ -68,7 +68,7 @@ int main()
 
 	return 0;
 }
-#endif
+
 
 
 
@@ -166,13 +166,89 @@ int main()
 
 	return 0;
 }
+#endif
 
 
 
 
 
+#include <iostream>
 
+template<typename T>
+class Auto_ptr3
+{
+	T* m_ptr;
+public:
+	Auto_ptr3(T* ptr = nullptr)
+		:m_ptr(ptr)
+	{
+	}
 
+	~Auto_ptr3()
+	{
+		delete m_ptr;
+	}
+
+	// Constructor por copia
+	// hace copia profunda de a.m_ptr a m_ptr
+	Auto_ptr3(const Auto_ptr3& a)
+	{
+		m_ptr = new T(3);
+		*m_ptr = *a.m_ptr;
+	}
+
+	// Asignación por copia
+	// Hace copia profunda de a.m_ptr a m_ptr
+	Auto_ptr3& operator=(const Auto_ptr3& a)
+	{
+		// detección de Auto-asignación
+		if (&a == this)
+			return *this;
+
+		// Libera cualquier recurso que contuviera
+		delete m_ptr;
+
+		// Copia el recurso
+		m_ptr = new T(3);
+		*m_ptr = *a.m_ptr;
+
+		return *this;
+	}
+
+	T& operator*() const { return *m_ptr; }
+	T* operator->() const { return m_ptr; }
+	bool isNull() const { return m_ptr == nullptr; }
+};
+
+class Recurso
+{
+	int m_id;
+public:
+	Recurso(int id)
+		:m_id(id)
+	
+	{ 
+		std::cout << "Recurso adquirido\n" << "m_id: " << m_id << "\n";
+	}
+	~Recurso() { 
+		
+		std::cout << "Recurso destruido\n"; }
+};
+
+Auto_ptr3<Recurso> generarRecurso()
+{
+	Auto_ptr3<Recurso> res{ new Recurso(3)};
+	return res; // este valor de retorno invocará el constructor por copia
+}
+
+int main()
+{
+
+	Auto_ptr3<Recurso> mainres;
+	mainres = generarRecurso(); // Esta asignación invocará la asignación por copia
+	
+	return 0;
+}
 
 
 
