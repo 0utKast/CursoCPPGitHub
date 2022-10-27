@@ -68,8 +68,15 @@ public:
 		return *this;
 	}
 
+
+
 	T& operator*() const { return *m_ptr; }
 	T* operator->() const { return m_ptr; }
+
+
+
+
+
 	bool isNull() const { return m_ptr == nullptr; }
 };
 
