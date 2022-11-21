@@ -90,7 +90,7 @@ int main()
 	std::cout << '\n';
 
 }
-#endif
+
 
 #include <vector>
 #include <algorithm>  // std::min_elemento
@@ -108,7 +108,7 @@ int main()
 
 }
 
-
+#endif
 
 
 
@@ -152,7 +152,7 @@ int main() {
 	return 0;
 }
 #endif
-#if 0
+
 #include <iostream>
 #include <map>
 #include <string>
@@ -172,7 +172,7 @@ int main() {
 	while (it != contadorMapaMundo.end())
 	{
 		// Acceder a CLAVE desde el elemento apuntado.
-		std::string word = it->first;
+		std::string word{ it->first };
 		// Acceder a VALOR desde el elemento apuntado.
 		int count = it->second;
 		std::cout << word << " :: " << count << std::endl;
@@ -183,7 +183,7 @@ int main() {
 }
 
 
-
+#if 0
 
 #include <iostream>
 #include <map>
