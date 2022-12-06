@@ -1,0 +1,1 @@
+Este es el contenido leído desde un archivo externo
