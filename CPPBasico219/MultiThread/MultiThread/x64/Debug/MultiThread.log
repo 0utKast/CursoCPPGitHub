@@ -1,0 +1,4 @@
+﻿  MultiThread.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPBasico219\MultiThread\MultiThread\MultiThread.cpp(63,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+D:\videotutoriales\CursoCPPGitHub\CPPBasico219\MultiThread\MultiThread\MultiThread.cpp(64,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  MultiThread.vcxproj -> D:\videotutoriales\CursoCPPGitHub\CPPBasico219\MultiThread\x64\Debug\MultiThread.exe
