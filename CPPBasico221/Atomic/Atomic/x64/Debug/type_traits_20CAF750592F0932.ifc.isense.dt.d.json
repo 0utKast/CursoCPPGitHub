@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\type_traits",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\yvals_core.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\vcruntime.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\sal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\concurrencysal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\vadefs.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xkeycheck.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\cstdint",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\stdint.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xstddef",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\cstddef",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stddef.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\corecrt.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xtr1common",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\cstdlib",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\math.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\corecrt_math.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdlib.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\corecrt_malloc.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\corecrt_search.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\corecrt_wstdlib.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\limits.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\initializer_list"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
