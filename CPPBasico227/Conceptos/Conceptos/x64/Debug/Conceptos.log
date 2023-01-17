@@ -1,0 +1,9 @@
+﻿  Conceptos.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPBasico227\Conceptos\Conceptos\Conceptos.cpp(51,21): error C2672: 'multiplicar': no se encontró una función sobrecargada que coincida
+D:\videotutoriales\CursoCPPGitHub\CPPBasico227\Conceptos\Conceptos\Conceptos.cpp(43,3): message : puede ser 'T multiplicar(T,T)'
+D:\videotutoriales\CursoCPPGitHub\CPPBasico227\Conceptos\Conceptos\Conceptos.cpp(51,21): message : no se cumplen las restricciones asociadas
+D:\videotutoriales\CursoCPPGitHub\CPPBasico227\Conceptos\Conceptos\Conceptos.cpp(42,14): message : el concepto 'std::integral<std::string>' se evaluó como falso
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\concepts(81,20): message : la restricción no se cumplió
+D:\videotutoriales\CursoCPPGitHub\CPPBasico227\Conceptos\Conceptos\Conceptos.cpp(42,34): message : el concepto 'std::floating_point<std::string>' se evaluó como falso
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\concepts(90,26): message : la restricción no se cumplió
+D:\videotutoriales\CursoCPPGitHub\CPPBasico227\Conceptos\Conceptos\Conceptos.cpp(51,19): error C2119: "resultado": el tipo de "auto" no se puede deducir de un inicializador vacío
