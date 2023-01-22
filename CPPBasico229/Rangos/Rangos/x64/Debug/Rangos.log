@@ -1,0 +1,3 @@
+﻿  Rangos.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPBasico229\Rangos\Rangos\Rangos.cpp(215,26): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Rangos.vcxproj -> D:\videotutoriales\CursoCPPGitHub\CPPBasico229\Rangos\x64\Debug\Rangos.exe
