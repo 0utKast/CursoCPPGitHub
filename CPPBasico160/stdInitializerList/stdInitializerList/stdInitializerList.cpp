@@ -65,7 +65,7 @@ public:
 	
     // permite a ContenedorInt ser inicializado con una lista de inicializadores
     ContenedorInt(std::initializer_list<int> lista) 
-        : ContenedorInt ( static_cast<int>(lista.size()) )
+        : ContenedorInt (static_cast<int>(lista.size()) )
         // usa el constructor delegado para configurar el contenedor inicial
     {
         // Ahora inicializamos el array desde el contenedor
