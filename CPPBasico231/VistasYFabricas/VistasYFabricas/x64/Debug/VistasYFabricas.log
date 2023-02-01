@@ -1,6 +1,21 @@
 ﻿  VistasYFabricas.cpp
-D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(69,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(70,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(71,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(72,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-  VistasYFabricas.vcxproj -> D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\x64\Debug\VistasYFabricas.exe
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(138,21): error C7612: no se pudo encontrar la unidad de encabezado para "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\string_view"
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(139,16): error C7612: no se pudo encontrar la unidad de encabezado para "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ranges"
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(140,18): error C7612: no se pudo encontrar la unidad de encabezado para "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream"
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(144,6): error C2182: 'printRange': este uso de 'void' no es válido
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(144,17): error C2065: 'string_view': identificador no declarado
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(144,29): error C2146: error de sintaxis: falta ')' delante del identificador 'message'
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(145,1): error C2143: error de sintaxis: falta ';' delante de '{'
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(145,1): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(154,18): error C2653: 'views': no es un nombre de clase o espacio de nombres
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(154,25): error C3861: 'iota': no se encontró el identificador
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(156,28): error C2653: 'views': no es un nombre de clase o espacio de nombres
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(156,35): error C3861: 'filter': no se encontró el identificador
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(156,17): error C2119: "result1": el tipo de "auto" no se puede deducir de un inicializador vacío
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(158,29): error C2653: 'views': no es un nombre de clase o espacio de nombres
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(158,36): error C3861: 'transform': no se encontró el identificador
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(158,17): error C2119: "result2": el tipo de "auto" no se puede deducir de un inicializador vacío
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(160,29): error C2653: 'views': no es un nombre de clase o espacio de nombres
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(160,36): error C3861: 'take': no se encontró el identificador
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(160,17): error C2119: "result3": el tipo de "auto" no se puede deducir de un inicializador vacío
+D:\videotutoriales\CursoCPPGitHub\CPPBasico231\VistasYFabricas\VistasYFabricas\VistasYFabricas.cpp(161,5): error C2064: el término no se evalúa como una función con 2 argumentos
