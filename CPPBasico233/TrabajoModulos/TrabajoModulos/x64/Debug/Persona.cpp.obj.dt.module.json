@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico233\\trabajomodulos\\trabajomodulos\\persona.cpp",
+        "ProvidedModule": "",
+        "ImportedModules": [
+            "persona"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

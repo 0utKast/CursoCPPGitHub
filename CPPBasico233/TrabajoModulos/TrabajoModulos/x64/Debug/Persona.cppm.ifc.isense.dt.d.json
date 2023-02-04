@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico233\\trabajomodulos\\trabajomodulos\\persona.cppm",
+        "ProvidedModule": "persona",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\string",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico233\\TrabajoModulos\\TrabajoModulos\\x64\\Debug\\string_7639C8BB991CBAE3.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\iostream",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico233\\TrabajoModulos\\TrabajoModulos\\x64\\Debug\\iostream_6B0F20D2B67FF47A.ifc.dt"
+            }
+        ]
+    }
+}
