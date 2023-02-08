@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico234\\comparacion\\comparacion\\comparacion.cppm",
+        "ProvidedModule": "comparacion",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\include\\iostream"
+        ]
+    }
+}

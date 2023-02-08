@@ -1,0 +1,3 @@
+﻿  Examinando orígenes para las dependencias de módulo...
+  Transitividad.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPBasico234\Transitividad\Transitividad\Transitividad.cpp(4,16): error C7612: no se pudo encontrar la unidad de encabezado para "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector"

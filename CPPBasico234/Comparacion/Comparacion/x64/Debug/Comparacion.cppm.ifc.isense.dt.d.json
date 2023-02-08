@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico234\\comparacion\\comparacion\\comparacion.cppm",
+        "ProvidedModule": "comparacion",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\iostream",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico234\\Comparacion\\Comparacion\\x64\\Debug\\iostream_6B0F20D2B67FF47A.ifc.dt"
+            }
+        ]
+    }
+}
