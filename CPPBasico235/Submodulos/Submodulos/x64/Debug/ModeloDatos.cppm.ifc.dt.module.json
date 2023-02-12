@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico235\\submodulos\\submodulos\\modelodatos.cppm",
+        "ProvidedModule": "modelodatos",
+        "ImportedModules": [
+            "modelodatos.persona",
+            "modelodatos.direccion"
+        ],
+        "ImportedHeaderUnits": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\include\\vector",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\include\\iostream"
+        ]
+    }
+}

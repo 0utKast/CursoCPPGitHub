@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico235\\particiones\\particiones\\modelodatos.cppm",
+        "ProvidedModule": "modelodatos",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "modelodatos:persona",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico235\\Particiones\\Particiones\\x64\\Debug\\ModeloDatos.Persona.cppm.ifc.dt"
+            },
+            {
+                "Name": "modelodatos:direccion",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico235\\Particiones\\Particiones\\x64\\Debug\\ModeloDatos.Direccion.cppm.ifc.dt"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\iostream",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico235\\Particiones\\Particiones\\x64\\Debug\\iostream_6B0F20D2B67FF47A.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\vector",
+                "BMI": "D:\\videotutoriales\\CursoCPPGitHub\\CPPBasico235\\Particiones\\Particiones\\x64\\Debug\\vector_852B757CA17DF5E1.ifc.dt"
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+export module modelodatos.person;  // submódulo modelodatos.persona
+
+export namespace ModeloDatos
+{
+	class Persona { /* ... */ };
+}

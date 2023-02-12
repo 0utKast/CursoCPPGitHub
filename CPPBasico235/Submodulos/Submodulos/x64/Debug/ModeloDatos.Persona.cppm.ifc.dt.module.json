@@ -1,0 +1,9 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\videotutoriales\\cursocppgithub\\cppbasico235\\submodulos\\submodulos\\modelodatos.persona.cppm",
+        "ProvidedModule": "modelodatos.persona",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
