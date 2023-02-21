@@ -1,0 +1,26 @@
+﻿  ParametrosPlantilla.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(347,34): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(347,28): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(353,12): error C2664: 'auto main::<lambda_2>::operator ()<std::string>(_T1,_T1) const': el argumento 2 no puede convertirse de 'char' a '_T1'
+          with
+          [
+              _T1=std::string
+          ]
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(353,48): message : Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(342,50): message : vea la declaración de 'main::<lambda_2>::operator ()'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(353,12): message : al hacer coincidir la lista de argumentos '(std::string, char)'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(357,12): error C3889: llamada a objeto de tipo de clase 'main::<lambda_3>': no se encontró ningún operador de llamada coincidente
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(343,50): message : puede ser 'auto main::<lambda_3>::operator ()(T,T) const'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(357,12): message : "auto main::<lambda_3>::operator ()(T,T) const": el parámetro de plantilla "T" es ambiguo
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(357,12): message : puede ser 'int'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(357,12): message : o       'double'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(357,12): message : "auto main::<lambda_3>::operator ()(T,T) const": no se pudo deducir el argumento plantilla para "T" de "int"
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(358,13): error C3889: llamada a objeto de tipo de clase 'main::<lambda_3>': no se encontró ningún operador de llamada coincidente
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(343,50): message : puede ser 'auto main::<lambda_3>::operator ()(T,T) const'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(358,13): message : "auto main::<lambda_3>::operator ()(T,T) const": el parámetro de plantilla "T" es ambiguo
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(358,13): message : puede ser 'char'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(358,13): message : o       'std::string'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(358,13): message : "auto main::<lambda_3>::operator ()(T,T) const": no se pudo deducir el argumento plantilla para "T" de "char"
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(367,29): error C3536: 'v6': no se puede usar antes de inicializarse
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(370,29): error C3536: 'v9': no se puede usar antes de inicializarse
+D:\videotutoriales\CursoCPPGitHub\CPPSTL238\ParametrosPlantilla\ParametrosPlantilla\ParametrosPlantilla.cpp(371,31): error C3536: 'v10': no se puede usar antes de inicializarse

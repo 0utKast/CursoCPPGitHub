@@ -1,4 +1,4 @@
-#if 0
+
 #include <iostream> 
 class Euros
 {
@@ -33,6 +33,12 @@ int main()
 
 	return 0;
 }
+
+
+
+#if 0
+
+
 #endif
 
 
@@ -148,7 +154,7 @@ int promedio(const int* empleados, int numnValores)
 
 
 
-
+#if 0
 #include <iostream> 
 class Euros
 {
@@ -207,7 +213,7 @@ int main()
 
 
 
-#if 0
+
 
 template <>
 Euros promedio(const Euros* eurosEmpleados, int numValores)

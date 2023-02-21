@@ -1,2 +1,11 @@
 ﻿  SobrecargasYPlantillas.cpp
-  SobrecargasYPlantillas.vcxproj -> G:\CursoCPPGitHub\CPPBasico155\SobrecargasYPlantillas\x64\Debug\SobrecargasYPlantillas.exe
+D:\videotutoriales\CursoCPPGitHub\CPPBasico155\SobrecargasYPlantillas\SobrecargasYPlantillas\SobrecargasYPlantillas.cpp(23,12): error C2676: '<' binario: 'T' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+          with
+          [
+              T=Euros
+          ]
+D:\videotutoriales\CursoCPPGitHub\CPPBasico155\SobrecargasYPlantillas\SobrecargasYPlantillas\SobrecargasYPlantillas.cpp(31,36): message : Vea la referencia a la creación de una instancia de la función plantilla "const T &mayor<Euros>(T,T)" que se está compilando
+          with
+          [
+              T=Euros
+          ]

@@ -114,7 +114,7 @@ int main()
 	return 0;
 }
 
-
+#endif
 
 
 
@@ -163,17 +163,15 @@ void imprimirString(const Frase& s)
 }
 
 int main()
-{
-	Frase frase = 'x';
-	imprimirString('x');
-	
-	std::cout << static_cast<Frase>(8); // compilará y usará Frase(int)
+{	
+	Frase frase  {'x'};
+	std::cout << frase;	
 
 	return 0;
 }
 
 
-
+#if 0
 #include <string>
 #include <iostream>
 
@@ -214,7 +212,6 @@ int main()
 	std::cout << frase;
 	return 0;
 }
-#endif
 
 
 
@@ -257,6 +254,7 @@ int main()
 	return 0;
 }
 
+#endif
 
 
 
