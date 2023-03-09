@@ -46,25 +46,29 @@ int sum(T... args)
     return (... + args);
 }
 
+template <typename... T>
+int sum_from_zero(T... args)
+{
+    return (0 + ... + args);
+}
+
 //Código 004
 
 
 #include <iostream>
 int main()
 {
-    int s1 = sum();           // error
+    //int s1 = sum();           // error
 
 
     int s2 = sum_from_zero(); // OK
-
-
 
     std::cout << sum(1) << '\n';
     std::cout << sum(1, 2) << '\n';
     std::cout << sum(1, 2, 3, 4, 5) << '\n';
 }
 
-
+#if 0
 //Código 005
 
 
@@ -77,7 +81,7 @@ int sum_from_zero(T... args)
 
 
 
-#if 0
+
 //Código 006
 template <typename... T>
 void printl(T... args)
