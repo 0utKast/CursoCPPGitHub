@@ -1,0 +1,4 @@
+﻿  TempAvan.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPSTL244\TempAvan\TempAvan\TempAvan.cpp(88,9): error C3861: 'init': no se encontró el identificador
+D:\videotutoriales\CursoCPPGitHub\CPPSTL244\TempAvan\TempAvan\TempAvan.cpp(88,13): message : "init": la declaración de función debe estar disponible, ya que ninguno de los argumentos depende de un parámetro de plantilla
+D:\videotutoriales\CursoCPPGitHub\CPPSTL244\TempAvan\TempAvan\TempAvan.cpp(91,2): message : Vea la referencia a la creación de una instancia de clase plantilla "analizador<T>" que se está compilando
