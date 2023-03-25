@@ -43,12 +43,17 @@ private:
     ~Logger() {}
     Logger(const Logger&) = delete;
     Logger& operator=(const Logger&) = delete;
+    Logger(Logger&&) = delete;
+    Logger& operator=(Logger&&) = delete;
 
     std::mutex lock_;
     size_t error_count_;
     size_t warning_count_;
     size_t info_count_;
 };
+
+
+
 
 
 
