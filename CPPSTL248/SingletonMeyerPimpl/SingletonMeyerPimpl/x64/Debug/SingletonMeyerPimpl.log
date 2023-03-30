@@ -1,0 +1,6 @@
+﻿  Singleton.cpp
+D:\videotutoriales\CursoCPPGitHub\CPPSTL248\SingletonMeyerPimpl\SingletonMeyerPimpl\Singleton.cpp(3,22): warning C4099: 'SingletonImpl': nombre de tipo visto anteriormente usando 'class' ahora se ve usando 'struct'
+D:\videotutoriales\CursoCPPGitHub\CPPSTL248\SingletonMeyerPimpl\SingletonMeyerPimpl\Singleton.cpp(3,8): message : vea la declaración de 'SingletonImpl'
+  SingletonMeyerPimpl.cpp
+  Generando código...
+  SingletonMeyerPimpl.vcxproj -> D:\videotutoriales\CursoCPPGitHub\CPPSTL248\SingletonMeyerPimpl\x64\Debug\SingletonMeyerPimpl.exe
